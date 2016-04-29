@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Events" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Events" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Users\Euler\Documents\Projets_MPCII\Events\SDL_ttf.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Events" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="$(#sdl.include)" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:\Users\Euler\Documents\Projets_MPCII\Events\SDL_image.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\sdlgfx.lib" />
+			<Add library="C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib\libfmodex.a" />
+			<Add directory="$(#sdl.lib)" />
+		</Linker>
+		<Unit filename="BLIT.h" />
+		<Unit filename="FILL.h" />
+		<Unit filename="GrandCarre.h" />
+		<Unit filename="IA.h" />
+		<Unit filename="IA_des.h" />
+		<Unit filename="IA_joueur_begin.h" />
+		<Unit filename="anim_fds.h" />
+		<Unit filename="anim_loading.h" />
+		<Unit filename="animation_des.h" />
+		<Unit filename="blit_pieces.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="condition_garage2_mousebutton.h" />
+		<Unit filename="condition_nvlepartie.h" />
+		<Unit filename="condition_nvlepartie_mousebutton.h" />
+		<Unit filename="condition_quitter.h" />
+		<Unit filename="condition_quitter_partie.h" />
+		<Unit filename="conditions_anim_menu.h" />
+		<Unit filename="ecrire_nom.h" />
+		<Unit filename="fireworks_blue.h" />
+		<Unit filename="free_surfaces.h" />
+		<Unit filename="garage.h" />
+		<Unit filename="garage2.h" />
+		<Unit filename="initialisation.h" />
+		<Unit filename="initialisation_anim.h" />
+		<Unit filename="initialisation_pacours.h" />
+		<Unit filename="joueur_begin.h" />
+		<Unit filename="lignes.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mov.h" />
+		<Unit filename="mov2.h" />
+		<Unit filename="no_game.h" />
+		<Unit filename="pres_barrage.h" />
+		<Unit filename="prototypes.h" />
+		<Unit filename="regle.h" />
+		<Unit filename="restriction_proposition.h" />
+		<Unit filename="total[0].h" />
+		<Unit filename="total[1].h" />
+		<Unit filename="total[2].h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

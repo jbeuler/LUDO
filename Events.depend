@@ -1,0 +1,630 @@
+# depslib dependency file v1.0
+1388712049 source:c:\users\euler\documents\projets_mpcii\events\main.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<string.h>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<fmodex/fmod.h>
+	"SDL/SDL_gfxPrimitives.h"
+	"SDL/SDL_rotozoom.h"
+	"prototypes.h"
+	"initialisation_anim.h"
+	"initialisation.h"
+	"FILL.h"
+	"initialisation_pacours.h"
+	"anim_loading.h"
+	"BLIT.h"
+	"mov.h"
+	"conditions_anim_menu.h"
+	"BLIT.h"
+	"mov.h"
+	"BLIT.h"
+	"mov.h"
+	"condition_nvlepartie.h"
+	"regle.h"
+	"condition_quitter.h"
+	"free_surfaces.h"
+
+1369850024 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326114594 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382666822 c:\users\euler\documents\projets_mpcii\events\prototypes.h
+
+1368680615 c:\users\euler\documents\projets_mpcii\events\gauche.h
+
+1368680615 c:\users\euler\documents\projets_mpcii\events\droite.h
+
+1368680615 c:\users\euler\documents\projets_mpcii\events\haut.h
+
+1368646521 c:\users\euler\documents\projets_mpcii\events\bas.h
+
+1368680615 c:\users\euler\documents\projets_mpcii\events\grandcarre.h
+
+1368506245 c:\users\euler\documents\projets_mpcii\events\boucle1.h
+	"GrandCarre.h"
+	"GAUCHE.h"
+	"DROITE.h"
+	"HAUT.h"
+	"BAS.h"
+
+1388786120 c:\users\euler\documents\projets_mpcii\events\mov.h
+	"no_game.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"IA.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"garage2.h"
+	"fin.h"
+	"joueur_begin.h"
+
+1372944328 c:\users\euler\documents\projets_mpcii\events\lignes.h
+
+1383449649 c:\users\euler\documents\projets_mpcii\events\blit.h
+
+1370588476 c:\users\euler\documents\projets_mpcii\events\garage.h
+	"animation_des.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+
+1325814034 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_platform.h
+
+1326114594 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\program files (x86)\codeblocks\sdl-1.2.15\include\begin_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\close_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_keysym.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1383446729 c:\users\euler\documents\projets_mpcii\events\fill.h
+
+1385440884 c:\users\euler\documents\projets_mpcii\events\initialisation.h
+
+1325818394 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1383449161 c:\users\euler\documents\projets_mpcii\events\initialisation_anim.h
+
+1369496238 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_gfxprimitives.h
+	<math.h>
+	"SDL.h"
+
+1369496238 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1369496238 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_gfxprimitives_font.h
+
+1383002433 c:\users\euler\documents\projets_mpcii\events\conditions_anim_menu.h
+
+1382837423 c:\users\euler\documents\projets_mpcii\events\blit_pieces.h
+
+1388711717 c:\users\euler\documents\projets_mpcii\events\animation_des.h
+	"BLIT.h"
+	"blit_pieces.h"
+
+1383600264 c:\users\euler\documents\projets_mpcii\events\free_surfaces.h
+
+1372712011 c:\users\euler\documents\projets_mpcii\events\anim_loading.h
+
+1373086423 c:\users\euler\documents\projets_mpcii\events\condition_quitter.h
+
+1372753357 c:\users\euler\documents\projets_mpcii\events\anim_fds.h
+
+1372771861 c:\users\euler\documents\projets_mpcii\events\condition_nvlepartie.h
+	"condition_nvlepartie_mousebutton.h"
+
+1382996038 c:\users\euler\documents\projets_mpcii\events\joueur_begin.h
+	"IA_joueur_begin.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"animation_des.h"
+
+1382410130 c:\users\euler\documents\projets_mpcii\events\condition_nvlepartie_mousebutton.h
+	"BLIT.h"
+	"mov.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+	"ecrire_nom.h"
+
+1382405651 c:\users\euler\documents\projets_mpcii\events\ecrire_nom.h
+
+1382666056 c:\users\euler\documents\projets_mpcii\events\initialisation_pacours.h
+
+1371018327 c:\users\euler\documents\projets_mpcii\events\mov2.h
+	"BLIT.h"
+	"garage2.h"
+	"blit_pieces.h"
+
+1388779351 c:\users\euler\documents\projets_mpcii\events\garage2.h
+	"no_game.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"pres_barrage.h"
+	"restriction_proposition.h"
+	"blit_pieces.h"
+	"condition_garage2_mousebutton.h"
+	"animation_des.h"
+	"condition_quitter_partie.h"
+
+1383507860 c:\users\euler\documents\projets_mpcii\events\condition_garage2_mousebutton.h
+	"pres_barrage.h"
+	"pres_barrage.h"
+	"total[2].h"
+	"total[0].h"
+	"total[1].h"
+	"total[1].h"
+	"total[0].h"
+	"total[0].h"
+	"total[0].h"
+	"total[1].h"
+	"total[1].h"
+	"total[1].h"
+	"total[0].h"
+
+1382671085 c:\users\euler\documents\projets_mpcii\events\restriction_proposition.h
+	"pres_barrage.h"
+	"pres_barrage.h"
+
+1372662149 c:\users\euler\documents\projets_mpcii\events\fin.h
+
+1372953565 c:\users\euler\documents\projets_mpcii\events\regle.h
+
+1383000780 c:\users\euler\documents\projets_mpcii\events\condition_quitter_partie.h
+	"BLIT.h"
+	"blit_pieces.h"
+
+1383607760 c:\users\euler\documents\projets_mpcii\events\no_game.h
+
+1385438706 c:\users\euler\documents\projets_mpcii\events\fireworks_blue.h
+	"BLIT.h"
+	"blit_pieces.h"
+
+1382914882 c:\users\euler\documents\projets_mpcii\events\pres_barrage.h
+
+1388781130 c:\users\euler\documents\projets_mpcii\events\ia_des.h
+	"BLIT.h"
+	"blit_pieces.h"
+
+1382410541 c:\users\euler\documents\projets_mpcii\events\ia_joueur_begin.h
+	"BLIT.h"
+	"blit_pieces.h"
+	"IA_des.h"
+
+1384062209 c:\users\euler\documents\projets_mpcii\events\ia.h
+	"IA_des.h"
+	"no_game.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"no_game.h"
+	"pres_barrage.h"
+	"pres_barrage.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+	"BLIT.h"
+	"blit_pieces.h"
+
+1383521768 c:\users\euler\documents\projets_mpcii\events\total[2].h
+
+1383521763 c:\users\euler\documents\projets_mpcii\events\total[0].h
+
+1383521766 c:\users\euler\documents\projets_mpcii\events\total[1].h
+
