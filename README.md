@@ -22,3 +22,8 @@ YOU WILL BE ABLE TO START RACING A TOKEN WHEN YOU HAVE A SIX(6) IN DICES.
 EACH SIX(6) PERMITS YOU TO START RACING A TOKEN.
 
 EACH TIME YOU HAVE SIX IN DICES, THE NEXT PLAY WILL BE YOURS AGAIN.
+
+- TO DO
+* Make a Turn ON/OFF button for the sound.
+* Play some good fireworks for the winner.
+* Put all of the ".h" files on a single folder together so that the main folder could be ordered.
